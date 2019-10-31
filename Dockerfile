@@ -15,4 +15,4 @@ RUN npm install
 
 CMD node proxy.js
 
-EXPOSE 9000
+EXPOSE 9090
