@@ -13,6 +13,6 @@ COPY package.json /app
 COPY proxy.js /app
 RUN npm install
 
-CMD node index.js
+CMD node proxy.js
 
 EXPOSE 9000
